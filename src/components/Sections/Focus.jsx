@@ -8,9 +8,9 @@ function Focus() {
           <div className="relative flex flex-col items-center   ">
             <div className="md:ml-10 mt-10 w-7xl">
               <img
-                className="md:max-w-none mx-auto mr-20"
-                src="https://res.cloudinary.com/db60chvpz/image/upload/v1715225746/Landings/iTech/wbl7aj8eju8l6aoeybdz.png"
-                width={500}
+                className="md:max-w-none mx-auto mr-20 rounded-2xl"
+                src="https://res.cloudinary.com/db60chvpz/image/upload/v1718828849/jbwliukbkbaksoo86pcl.jpg"
+                width={600}
                 height="300"
                 alt="iPad"
               />
@@ -29,32 +29,33 @@ function Focus() {
               }}
               className="btn-sm text-gray-200  hover:bg-gray-800 mb-2 rounded"
             >
-              <h3 className="text-start">Beautiful Themes</h3>
+              <h3 className="text-start">Our Key</h3>
             </div>
 
             <h1
               className="text-3xl font-bold mb-3 text-start"
               style={{ color: "#333333" }}
             >
-              Focus More With Dark Theme
+              What Makes Us Different
             </h1>
 
             {/* Items */}
             <section className="sm:flex max-w-sm mx-auto flex flex-col gap-5  items-start md:max-w-2xl lg:max-w-4xl  mb-10 mt-10">
               {/* item 1 */}
               <div className="flex items-center">
-                Apply Notero’s elegant themes to your taste. Dark themes work
-                excellently for those who prefer distraction-free mode.
+                Our unique blend of technical expertise and creative thinking
+                sets us apart. We tailor our solutions to your specific needs,
+                ensuring maximum impact and seamless integration.
               </div>
               {/* item 2 */}
-              <div className="flex items-center">
+              {/* <div className="flex items-center">
                 <ul style={{ listStyleType: "disc", paddingLeft: "20px" }}>
                   <li>Filtering notes using matched keywords</li>
                   <li>8 Beautiful themes for you select</li>
                   <li>Save energy for your device</li>
                   <li>Easy to switch between light and dark mode</li>
                 </ul>
-              </div>
+              </div> */}
             </section>
             <button
               type="button"

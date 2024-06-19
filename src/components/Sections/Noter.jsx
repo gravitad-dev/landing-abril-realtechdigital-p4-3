@@ -8,7 +8,7 @@ function Noter() {
           <div className="relative flex flex-col items-center   ">
             <div className="md:ml-10 mt-10 w-7xl">
               <img
-                className="md:max-w-none mx-auto mr-20"
+                className="md:max-w-none mx-auto mr-20 rounded-2xl"
                 src={texts["section-five"].picture}
                 width={600}
                 height="300"
@@ -38,16 +38,16 @@ function Noter() {
             >
               {texts["section-five"].title}
             </h1>
-            <p className="pt-6 text-[#444444]" style={{ opacity: "60%" }}>
+            {/* <p className="pt-6 text-[#444444]" style={{ opacity: "60%" }}>
               {texts["section-five"].body}
-            </p>
+            </p> */}
 
             {/* Items */}
-            <section className="sm:flex  mx-auto flex flex-col gap-5  items-start md:max-w-2xl lg:max-w-4xl  mb-10 mt-10">
+            <section className="sm:flex  mx-auto flex flex-col gap-5  items-start md:max-w-3xl lg:max-w-5xl  mb-10 mt-10">
               {/* item 1 */}
-              <div className="flex items-center">
+              <div className="flex flex-between gap-4">
                 <div
-                  className="border rounded-full flex items-center justify-center w-10 h-10 mr-3"
+                  className="border rounded-full flex items-center justify-center w-10 h-10 p-2"
                   style={{ backgroundColor: "rgba(105, 83, 211, 0.1)" }}
                 >
                   <svg
@@ -71,9 +71,9 @@ function Noter() {
                 </h2>
               </div>
               {/* item 2 */}
-              <div className="flex items-center">
+              <div className="flex flex-between gap-4">
                 <div
-                  className="border rounded-full flex items-center justify-center w-10 h-10 mr-3"
+                  className="border rounded-full flex items-center justify-center w-10 h-10 p-2"
                   style={{ backgroundColor: "rgba(105, 83, 211, 0.1)" }}
                 >
                   <svg
@@ -93,13 +93,13 @@ function Noter() {
                   </svg>
                 </div>
                 <h2 className="font-bold">
-                  {texts["section-five"].infoButton1}
+                  {texts["section-five"].infoButton2}
                 </h2>
               </div>
               {/* item 3 */}
-              <div className="flex items-center">
+              <div className="flex flex-between gap-4">
                 <div
-                  className="border rounded-full flex items-center justify-center w-10 h-10 mr-3"
+                  className="border rounded-full flex items-center justify-center w-10 h-10 p-2"
                   style={{ backgroundColor: "rgba(105, 83, 211, 0.1)" }}
                 >
                   <svg
@@ -119,7 +119,32 @@ function Noter() {
                   </svg>
                 </div>
                 <h2 className="font-bold">
-                  {texts["section-five"].infoButton1}
+                  {texts["section-five"].infoButton3}
+                </h2>
+              </div>
+              {/* item 4 */}
+              <div className="flex flex-between gap-4">
+                <div
+                  className="border rounded-full flex items-center justify-center w-10 h-10 p-2"
+                  style={{ backgroundColor: "rgba(105, 83, 211, 0.1)" }}
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth={1.5}
+                    stroke="#6953D3"
+                    className="size-6"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
+                    />
+                  </svg>
+                </div>
+                <h2 className="font-bold">
+                  {texts["section-five"].infoButton4}
                 </h2>
               </div>
             </section>

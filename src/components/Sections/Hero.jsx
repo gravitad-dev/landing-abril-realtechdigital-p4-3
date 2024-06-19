@@ -2,8 +2,8 @@ import texts from "../../sections.json";
 
 function Hero() {
   return (
-    <section className="relative">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6  md:flex items-center justify-center">
+    <section className="relative mb-20">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6  md:flex items-center justify-center">
         {/* Hero content */}
         <div className="pt-10 pb-12 md:pt-10 lg:pb-20">
           <div className="flex lg:justify-start justify-center">
@@ -47,13 +47,25 @@ function Hero() {
                     className="flex gap-2 items-center  text-white bg-[#6953D3] rounded-full p-4 hover:bg-gray-800 w-full sm:w-auto sm:ml-0"
                     href="#0"
                   >
-                    <img
-                      src="https://res.cloudinary.com/db60chvpz/image/upload/v1715148094/Landings/eoxpvt8alr5dbvzjgwjj.png"
-                      alt=""
-                    />
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      stroke="currentColor"
+                      className="size-6"
+                    >
+                      <title>contact</title>
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M7.5 8.25h9m-9 3H12m-9.75 1.51c0 1.6 1.123 2.994 2.707 3.227 1.129.166 2.27.293 3.423.379.35.026.67.21.865.501L12 21l2.755-4.133a1.14 1.14 0 0 1 .865-.501 48.172 48.172 0 0 0 3.423-.379c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0 0 12 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018Z"
+                      />
+                    </svg>
+
                     {texts["section-two"].button1}
                   </a>
-                  <a className="flex items-center" href="/#">
+                  {/* <a className="flex items-center" href="/#">
                     <div className="border rounded-full flex items-center justify-center w-14 h-14 mr-3">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -75,13 +87,13 @@ function Hero() {
                       <h2>View</h2>
                       <h2>Promotion</h2>
                     </div>
-                  </a>
+                  </a> */}
                 </div>
               </div>
               {/* Information btns */}
-              <div className="flex mt-10 justify-start gap-10">
-                {/* Info 1 */}
-                <div className="flex items-center">
+              {/* <div className="flex mt-10 justify-start gap-10"> */}
+              {/* Info 1 */}
+              {/* <div className="flex items-center">
                   <div
                     className="border rounded-full flex items-center justify-center w-10 h-10 mr-3"
                     style={{ backgroundColor: "rgba(105, 83, 211, 0.1)" }}
@@ -103,9 +115,9 @@ function Hero() {
                     </svg>
                   </div>
                   <h2>{texts["section-two"].infoButton1}</h2>
-                </div>
-                {/* Info 2 */}
-                <div className="flex items-center">
+                </div> */}
+              {/* Info 2 */}
+              {/* <div className="flex items-center">
                   <div
                     className="border rounded-full flex items-center justify-center w-10 h-10 mr-3"
                     style={{ backgroundColor: "rgba(105, 83, 211, 0.1)" }}
@@ -127,16 +139,16 @@ function Hero() {
                     </svg>
                   </div>
                   <h2>{texts["section-two"].infoButton2}</h2>
-                </div>
-              </div>
+                </div> */}
+              {/* </div> */}
             </div>
           </div>
         </div>
-        <div className="md:ml-10 mt-10">
+        <div className=" mb-20">
           <img
             className="md:max-w-none mx-auto rounded"
             src={texts["section-two"].image}
-            width={500}
+            width={600}
             height="150"
             alt="Business man"
           />

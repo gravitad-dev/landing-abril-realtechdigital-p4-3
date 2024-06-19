@@ -3,9 +3,9 @@ import texts from "../../sections.json";
 function Reviews() {
   return (
     <section className="relative">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6  md:flex items-center justify-center">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6  md:flex items-center justify-center">
         {/* Hero content */}
-        <div className="pt-10 pb-12 md:pt-10 lg:pb-20">
+        <div className="pt-20  ">
           <div className="flex lg:justify-start justify-center">
             <span
               style={{
@@ -27,7 +27,7 @@ function Reviews() {
               className="text-5xl md:text-4.5xl font-semibold leading-tighter tracking-tighter mb-4 expressa"
               data-aos="zoom-y-out"
             >
-              Loved From Customers{" "}
+              Those Who Have Trusted Us{" "}
             </h1>
             <div className="max-w-3xl mx-auto">
               <p
@@ -35,11 +35,13 @@ function Reviews() {
                 data-aos="zoom-y-out"
                 data-aos-delay="150"
               >
-                Notero loved from thoudsands customer worldwide and get trusted
-                from big companies.
+                Leading companies across various industries have trusted
+                realtechdigital to enhance their operations and drive
+                innovation. Join our growing list of satisfied clients who have
+                experienced the benefits of our AI and automation expertise.
               </p>
               {/* Section 1 */}
-              <div
+              {/* <div
                 className=" mx-auto flex justify-start"
                 data-aos="zoom-y-out"
                 data-aos-delay="300"
@@ -90,7 +92,7 @@ function Reviews() {
                     </div>
                   </a>
                 </div>
-              </div>
+              </div> */}
               {/* Section 2 */}
               <div
                 className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-start"
@@ -102,7 +104,7 @@ function Reviews() {
                     className="flex gap-2 items-center  text-white bg-[#6953D3] rounded-full px-6 py-4 hover:bg-gray-800 w-full sm:w-auto sm:ml-0"
                     href="#0"
                   >
-                    See Reviews on app store
+                    Contact Us
                   </a>
                   <a className="flex items-center" href="/#">
                     <div className="border rounded-full flex items-center justify-center w-14 h-14 mr-3">
@@ -142,16 +144,18 @@ function Reviews() {
               />
             </figure>
             <div className="card-body">
+              <p>
+                “Realtechdigital transformed our operations with their AI
+                solutions, significantly boosting our productivity and
+                efficiency.”
+              </p>
               <figure className="w-20">
                 <img
                   src="https://res.cloudinary.com/db60chvpz/image/upload/v1715272606/Landings/iTech/snrfn6gqce22otawujrc.png"
                   alt="cc"
                 />
               </figure>
-              <p>
-                “You can even send emails to Evernote and gatherall of the
-                things you need in a single place.”
-              </p>
+              <h2>Jane Doe, CEO of TechInnovate</h2>
             </div>
           </div>
 
@@ -164,13 +168,17 @@ function Reviews() {
               />
             </figure>
             <div className="card-body">
+              <p>
+                “The automation tools from realtechdigital have revolutionized
+                our workflow, saving us time and reducing costs.”
+              </p>
               <figure className="w-20">
                 <img
                   src="https://res.cloudinary.com/db60chvpz/image/upload/v1715272606/Landings/iTech/snrfn6gqce22otawujrc.png"
                   alt="cc"
                 />
               </figure>
-              <p>“Notero - 1st my choice for notes app. Awesome”</p>
+              <h2>John Smith, Operations Manager at AutoSupply Co.</h2>
             </div>
           </div>
           {/* Card 3 */}
@@ -182,16 +190,18 @@ function Reviews() {
               />
             </figure>
             <div className="card-body">
+              <p>
+                “Realtechdigital’s data analytics platforms provided us with
+                invaluable insights, enabling better decision-making and
+                strategic planning.”
+              </p>
               <figure className="w-20">
                 <img
                   src="https://res.cloudinary.com/db60chvpz/image/upload/v1715272606/Landings/iTech/snrfn6gqce22otawujrc.png"
                   alt="cc"
                 />
               </figure>
-              <p>
-                “.This app is seriously good. It’s simple, clean anda real joy
-                to use.”
-              </p>
+              <h2>Emily Johnson, Director of Data Insights at MarketLeaders</h2>
             </div>
           </div>
           {/*  */}

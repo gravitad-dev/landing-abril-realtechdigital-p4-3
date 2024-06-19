@@ -1,34 +1,11 @@
 function Mobile() {
   return (
-    <div className="bg-[#F9F4F4] pt-20 mt-10">
-      <div className="lg:menu-horizontal menu-vertical items-center gap-16">
-        <div>
+    <div className="pt-40 mt-20 mb-20 flex items center justify-center">
+      <div className="">
+        <div style={{ height: "500px", overflow: "hidden" }}>
           <img
-            src="https://res.cloudinary.com/db60chvpz/image/upload/v1715234620/Landings/iTech/axss7sxd2jtvrvqlt4xa.png"
-            alt="mobile1"
-          />
-        </div>
-        <div>
-          <img
-            src="https://res.cloudinary.com/db60chvpz/image/upload/v1715234620/Landings/iTech/mvyggqjghb3l7z6ullmc.png"
-            alt="mobile1"
-          />
-        </div>
-        <div>
-          <img
-            src="https://res.cloudinary.com/db60chvpz/image/upload/v1715234942/Landings/iTech/sbmznpvryjksganhd9gu.png"
-            alt="mobile1"
-          />
-        </div>
-        <div>
-          <img
-            src="https://res.cloudinary.com/db60chvpz/image/upload/v1715234620/Landings/iTech/uzyqfa2z5pak8rckvnb9.png"
-            alt="mobile1"
-          />
-        </div>
-        <div>
-          <img
-            src="https://res.cloudinary.com/db60chvpz/image/upload/v1715234620/Landings/iTech/wwc6rvwvakfnocb45cy6.png"
+            className="overflow-hidden"
+            src="https://res.cloudinary.com/db60chvpz/image/upload/v1718828854/aeoyirrtkg2qetkf6xy8.webp"
             alt="mobile1"
           />
         </div>

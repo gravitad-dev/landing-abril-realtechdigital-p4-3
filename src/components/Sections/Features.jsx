@@ -89,6 +89,12 @@ function Features() {
           <span className="text-4xl font-bold" style={{ color: "#333333" }}>
             {texts["section-three"].breadcrum4}
           </span>
+          <span className="text-4xl font-bold" style={{ color: "#6953D3" }}>
+            {texts["section-three"].breadcrum5}
+          </span>
+          <span className="text-4xl font-bold" style={{ color: "#333333" }}>
+            {texts["section-three"].breadcrum6}
+          </span>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-5 gap-20 mt-20 items-center">
@@ -101,10 +107,10 @@ function Features() {
               />
             </div>
             <div
-              className="mt-6 font-bold text-center"
+              className="mt-6 font-bold text-center text-[#6953D3]"
               style={{ width: "128px" }}
             >
-              <h2>Notes Powerful and Security</h2>
+              <h2>AI Algorithm Development</h2>
             </div>
           </div>
           <div className="max-w-sm  mx-auto flex flex-col ">
@@ -116,10 +122,10 @@ function Features() {
               />
             </div>
             <div
-              className="mt-6 font-bold text-center"
+              className="mt-6 font-bold text-center text-[#6953D3]"
               style={{ width: "140px" }}
             >
-              <h2>Easy Sort, Classify and Search</h2>
+              <h2>Process Automation Software</h2>
             </div>
           </div>
           <div className="max-w-sm  mx-auto flex flex-col ">
@@ -131,10 +137,10 @@ function Features() {
               />
             </div>
             <div
-              className="mt-6 font-bold text-center"
+              className="mt-6 font-bold text-center text-[#6953D3]"
               style={{ width: "128px" }}
             >
-              <h2>Collaboration and Share</h2>
+              <h2>Data Analytics Platforms</h2>
             </div>
           </div>
           <div className="max-w-sm  mx-auto flex flex-col ">
@@ -146,10 +152,10 @@ function Features() {
               />
             </div>
             <div
-              className="mt-6 font-bold text-center"
+              className="mt-6 font-bold text-center text-[#6953D3]"
               style={{ width: "128px" }}
             >
-              <h2>Notes Powerful and Security</h2>
+              <h2>AI-Powered Chatbots</h2>
             </div>
           </div>
           <div className="max-w-sm  mx-auto flex flex-col ">
@@ -161,10 +167,10 @@ function Features() {
               />
             </div>
             <div
-              className="mt-6 font-bold text-center"
+              className="mt-6 font-bold text-center text-[#6953D3]"
               style={{ width: "128px" }}
             >
-              <h2>Notes Powerful and Security</h2>
+              <h2>Predictive Maintenance Systems</h2>
             </div>
           </div>
         </div>
