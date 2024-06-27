@@ -11,30 +11,31 @@ const Navbar = () => {
       style={{ backgroundColor: "white" }}
     >
       <div className="">
-        <a className=" text-xl" href="/#">
-          <img src={texts["section-one"].logo} alt="logo" />
+        <a className=" text-2xl font-semibold flex items-center gap-5" href="/#">
+          <img src={texts["section-one"].logo} alt="logo" width={70} />
+          <h1>{texts["section-one"].logoName}</h1>
         </a>
       </div>
       <div className="justify-between hidden lg:flex items-center">
         <ul className="menu menu-horizontal  font-semibold  gap-16">
-          <li className="hover:text-[#6953D3]">
+          <li className="hover:text-[#1BBC82]">
             <a href="/#">{texts["section-one"].item1}</a>
           </li>
-          <li className="hover:text-[#6953D3]">
+          <li className="hover:text-[#1BBC82]">
             <a href="/#">{texts["section-one"].item2}</a>
           </li>
-          <li className="hover:text-[#6953D3]">
+          <li className="hover:text-[#1BBC82]">
             <a href="/#">{texts["section-one"].item3}</a>
           </li>
-          <li className="hover:text-[#6953D3]">
-            <a href="/#">{texts["section-one"].item4}</a>
+          <li className="hover:text-[#1BBC82]">
+            <a href="http://blog.realtechdigital.xyz/" target="_blank" rel="noreferrer">{texts["section-one"].item4}</a>
           </li>
         </ul>
       </div>
       <div className="flex items-center">
         <a
-          className="flex items-center btn  gap-2 px-3 py-2 rounded-full"
-          href="/#"
+          className="flex items-center btn  gap-2 px-3 py-2 px-5 rounded-full"
+          href="mailto:realtechdigital2024@gmail.com" target="_blank" rel="noreferrer"
           style={{ backgroundColor: "white" }}
         >
           Contact

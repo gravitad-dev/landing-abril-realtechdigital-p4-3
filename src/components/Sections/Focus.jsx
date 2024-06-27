@@ -22,7 +22,7 @@ function Focus() {
             <div
               style={{
                 width: "fit-content",
-                color: "#6953D3",
+                color: "#1BBC82",
                 backgroundColor: "rgba(105, 83, 211, 0.1)",
                 fontFamily: "Space",
                 padding: "8px 16px 8px 16px",
@@ -59,7 +59,7 @@ function Focus() {
             </section>
             <button
               type="button"
-              className=" flex items-center bg-[#6953D3] rounded-full py-2 px-5 text-white"
+              className=" flex items-center bg-[#1BBC82] rounded-full py-2 px-5 text-white"
             >
               Discovery Now
             </button>

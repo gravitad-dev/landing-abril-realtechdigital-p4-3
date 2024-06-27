@@ -10,7 +10,7 @@ function Hero() {
             <span
               style={{
                 width: "fit-content",
-                color: "#6953D3",
+                color: "#1BBC82",
                 fontFamily: "Space",
                 marginBottom: "24px",
                 backgroundColor: "rgba(105, 83, 211, 0.1)",
@@ -44,8 +44,8 @@ function Hero() {
               >
                 <div className="flex justify-start gap-12">
                   <a
-                    className="flex gap-2 items-center  text-white bg-[#6953D3] rounded-full p-4 hover:bg-gray-800 w-full sm:w-auto sm:ml-0"
-                    href="#0"
+                    className="flex gap-2 items-center  text-white bg-[#1BBC82] rounded-full p-4 hover:bg-gray-800 w-full sm:w-auto sm:ml-0"
+                    href="mailto:realtechdigital2024@gmail.com" target="_blank" rel="noreferrer"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -69,7 +69,7 @@ function Hero() {
                     <div className="border rounded-full flex items-center justify-center w-14 h-14 mr-3">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        fill="#6953D3"
+                        fill="#1BBC82"
                         viewBox="0 0 24 24"
                         strokeWidth={1.5}
                         // stroke="currentColor"
@@ -103,7 +103,7 @@ function Hero() {
                       fill="none"
                       viewBox="0 0 24 24"
                       strokeWidth={1.5}
-                      stroke="#6953D3"
+                      stroke="#1BBC82"
                       className="w-6 h-6"
                     >
                       <title>trial</title>
@@ -124,7 +124,7 @@ function Hero() {
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      fill="#6953D3"
+                      fill="#1BBC82"
                       viewBox="0 0 24 24"
                       strokeWidth={1.5}
                       stroke="white"
