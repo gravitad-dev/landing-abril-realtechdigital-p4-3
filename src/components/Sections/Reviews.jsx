@@ -18,7 +18,7 @@ function Reviews() {
               }}
               className="btn-sm text-gray-200 font-semibold  hover:bg-gray-800 rounded"
             >
-              Testimonials
+              Testimonios
             </span>
           </div>
           {/* Section header */}
@@ -27,7 +27,7 @@ function Reviews() {
               className="text-5xl md:text-4.5xl font-semibold leading-tighter tracking-tighter mb-4 expressa"
               data-aos="zoom-y-out"
             >
-              Those Who Have Trusted Us{" "}
+              ¿Quiénes han confiado en nosotros?{" "}
             </h1>
             <div className="max-w-3xl mx-auto">
               <p
@@ -35,10 +35,11 @@ function Reviews() {
                 data-aos="zoom-y-out"
                 data-aos-delay="150"
               >
-                Leading companies across various industries have trusted
-                realtechdigital to enhance their operations and drive
-                innovation. Join our growing list of satisfied clients who have
-                experienced the benefits of our AI and automation expertise.
+                Empresas líderes de diversos sectores han confiado en
+                realtechdigital para mejorar sus operaciones e impulsar la
+                innovación. Únase a nuestra creciente lista de clientes
+                satisfechos que han experimentado los beneficios de nuestra
+                experiencia en inteligencia artificial y automatización.
               </p>
               {/* Section 1 */}
               {/* <div
@@ -104,7 +105,7 @@ function Reviews() {
                     className="flex gap-2 items-center  text-white bg-[#6953D3] rounded-full px-6 py-4 hover:bg-gray-800 w-full sm:w-auto sm:ml-0"
                     href="#0"
                   >
-                    Contact Us
+                    Contáctanos
                   </a>
                   <a className="flex items-center" href="/#">
                     <div className="border rounded-full flex items-center justify-center w-14 h-14 mr-3">
@@ -116,7 +117,7 @@ function Reviews() {
                         // stroke="currentColor"
                         className="w-12 h-12 pl-1"
                       >
-                        <title>play</title>
+                        <title>Ver</title>
                         <path
                           strokeLinecap="round"
                           strokeLinejoin="round"
@@ -125,8 +126,8 @@ function Reviews() {
                       </svg>
                     </div>
                     <div>
-                      <h2>View</h2>
-                      <h2>Promotion</h2>
+                      <h2>Ver</h2>
+                      <h2>Promoción</h2>
                     </div>
                   </a>
                 </div>
@@ -145,9 +146,9 @@ function Reviews() {
             </figure>
             <div className="card-body">
               <p>
-                “Realtechdigital transformed our operations with their AI
-                solutions, significantly boosting our productivity and
-                efficiency.”
+                “Realtechdigital transformó nuestras operaciones con sus
+                soluciones de inteligencia artificial, aumentando
+                significativamente nuestra productividad y eficiencia”
               </p>
               <figure className="w-20">
                 <img
@@ -155,7 +156,7 @@ function Reviews() {
                   alt="cc"
                 />
               </figure>
-              <h2>Jane Doe, CEO of TechInnovate</h2>
+              <h2>Jane Doe, directora ejecutiva de TechInnovate.</h2>
             </div>
           </div>
 
@@ -169,8 +170,9 @@ function Reviews() {
             </figure>
             <div className="card-body">
               <p>
-                “The automation tools from realtechdigital have revolutionized
-                our workflow, saving us time and reducing costs.”
+                “Las herramientas de automatización de realtechdigital han
+                revolucionado nuestro flujo de trabajo, ahorrándonos tiempo y
+                reduciendo costes”
               </p>
               <figure className="w-20">
                 <img
@@ -178,7 +180,7 @@ function Reviews() {
                   alt="cc"
                 />
               </figure>
-              <h2>John Smith, Operations Manager at AutoSupply Co.</h2>
+              <h2>John Smith, director de operaciones de AutoSupply Co.</h2>
             </div>
           </div>
           {/* Card 3 */}
@@ -191,9 +193,9 @@ function Reviews() {
             </figure>
             <div className="card-body">
               <p>
-                “Realtechdigital’s data analytics platforms provided us with
-                invaluable insights, enabling better decision-making and
-                strategic planning.”
+                “Las plataformas de análisis de datos de Realtechdigital nos
+                brindaron conocimientos invaluables, lo que nos permitió una
+                mejor toma de decisiones y planificación estratégica.”
               </p>
               <figure className="w-20">
                 <img
@@ -201,7 +203,9 @@ function Reviews() {
                   alt="cc"
                 />
               </figure>
-              <h2>Emily Johnson, Director of Data Insights at MarketLeaders</h2>
+              <h2>
+                Emily Johnson, directora de Data Insights de MarketLeaders.
+              </h2>
             </div>
           </div>
           {/*  */}

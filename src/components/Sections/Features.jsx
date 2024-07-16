@@ -4,7 +4,7 @@ function Features() {
   return (
     <section className="relative max-w-6xl mx-auto px-4 sm:px-6">
       {/* Section 1 */}
-      
+
       {/* Section 2 */}
       <div className="lg:text-left text-center  pb-12">
         <div
@@ -55,7 +55,7 @@ function Features() {
               className="mt-6 font-bold text-center text-[#1BBC82]"
               style={{ width: "128px" }}
             >
-              <h2>AI Algorithm Development</h2>
+              <h2>Desarrollo de algoritmos de IA</h2>
             </div>
           </div>
           <div className="max-w-sm  mx-auto flex flex-col ">
@@ -70,7 +70,7 @@ function Features() {
               className="mt-6 font-bold text-center text-[#1BBC82]"
               style={{ width: "140px" }}
             >
-              <h2>Process Automation Software</h2>
+              <h2>Software de automatización de procesos</h2>
             </div>
           </div>
           <div className="max-w-sm  mx-auto flex flex-col ">
@@ -85,7 +85,7 @@ function Features() {
               className="mt-6 font-bold text-center text-[#1BBC82]"
               style={{ width: "128px" }}
             >
-              <h2>Data Analytics Platforms</h2>
+              <h2>Plataformas de análisis de datos</h2>
             </div>
           </div>
           <div className="max-w-sm  mx-auto flex flex-col ">
@@ -100,7 +100,7 @@ function Features() {
               className="mt-6 font-bold text-center text-[#1BBC82]"
               style={{ width: "128px" }}
             >
-              <h2>AI-Powered Chatbots</h2>
+              <h2>Chatbots impulsados por IA</h2>
             </div>
           </div>
           <div className="max-w-sm  mx-auto flex flex-col ">
@@ -115,7 +115,7 @@ function Features() {
               className="mt-6 font-bold text-center text-[#1BBC82]"
               style={{ width: "128px" }}
             >
-              <h2>Predictive Maintenance Systems</h2>
+              <h2>Sistemas de mantenimiento predictivo</h2>
             </div>
           </div>
         </div>

@@ -8,6 +8,7 @@ import Noter2 from "./components/Sections/Noter2";
 import Focus from "./components/Sections/Focus";
 import Mobile from "./components/Sections/Mobile";
 import Reviews from "./components/Sections/Reviews";
+import SocialButtons from "./components/Socials";
 
 function App() {
   return (
@@ -23,6 +24,10 @@ function App() {
         <Reviews />
       </Layout>
       <MainFooter />
+      <div className="flex justify-center">
+        <p>Copyright © 2024 - Todos los derechos reservados</p>
+      </div>
+      <SocialButtons />
     </main>
   );
 }

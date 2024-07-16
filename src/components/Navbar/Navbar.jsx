@@ -11,7 +11,10 @@ const Navbar = () => {
       style={{ backgroundColor: "white" }}
     >
       <div className="">
-        <a className=" text-2xl font-semibold flex items-center gap-5" href="/#">
+        <a
+          className=" text-2xl font-semibold flex items-center gap-5"
+          href="/#"
+        >
           <img src={texts["section-one"].logo} alt="logo" width={70} />
           <h1>{texts["section-one"].logoName}</h1>
         </a>
@@ -28,17 +31,25 @@ const Navbar = () => {
             <a href="/#">{texts["section-one"].item3}</a>
           </li>
           <li className="hover:text-[#1BBC82]">
-            <a href="http://blog.realtechdigital.xyz/" target="_blank" rel="noreferrer">{texts["section-one"].item4}</a>
+            <a
+              href="http://blog.realtechdigital.xyz/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {texts["section-one"].item4}
+            </a>
           </li>
         </ul>
       </div>
       <div className="flex items-center">
         <a
           className="flex items-center btn  gap-2 px-3 py-2 px-5 rounded-full"
-          href="mailto:realtechdigital2024@gmail.com" target="_blank" rel="noreferrer"
+          href="mailto:realtechdigital2024@gmail.com"
+          target="_blank"
+          rel="noreferrer"
           style={{ backgroundColor: "white" }}
         >
-          Contact
+          Contactar
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"

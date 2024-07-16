@@ -29,23 +29,24 @@ function Focus() {
               }}
               className="btn-sm text-gray-200  hover:bg-gray-800 mb-2 rounded"
             >
-              <h3 className="text-start">Our Key</h3>
+              <h3 className="text-start">La clave</h3>
             </div>
 
             <h1
               className="text-3xl font-bold mb-3 text-start"
               style={{ color: "#333333" }}
             >
-              What Makes Us Different
+              ¿Qué nos diferencia?
             </h1>
 
             {/* Items */}
             <section className="sm:flex max-w-sm mx-auto flex flex-col gap-5  items-start md:max-w-2xl lg:max-w-4xl  mb-10 mt-10">
               {/* item 1 */}
               <div className="flex items-center">
-                Our unique blend of technical expertise and creative thinking
-                sets us apart. We tailor our solutions to your specific needs,
-                ensuring maximum impact and seamless integration.
+                Nuestra combinación única de experiencia técnica y pensamiento
+                creativo nos distingue. Adaptamos nuestras soluciones a sus
+                necesidades específicas, garantizando el máximo impacto y una
+                integración perfecta.
               </div>
               {/* item 2 */}
               {/* <div className="flex items-center">
@@ -61,7 +62,7 @@ function Focus() {
               type="button"
               className=" flex items-center bg-[#1BBC82] rounded-full py-2 px-5 text-white"
             >
-              Discovery Now
+              Descubrir ahora
             </button>
           </div>
         </div>
