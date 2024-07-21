@@ -1,4 +1,4 @@
-import texts from "../../sections.json";
+import texts from '../../sections.json';
 
 function Focus() {
   return (
@@ -21,11 +21,11 @@ function Focus() {
           <div className="text-start">
             <div
               style={{
-                width: "fit-content",
-                color: "#1BBC82",
-                backgroundColor: "rgba(105, 83, 211, 0.1)",
-                fontFamily: "Space",
-                padding: "8px 16px 8px 16px",
+                width: 'fit-content',
+                color: '#1BBC82',
+                backgroundColor: 'rgba(105, 83, 211, 0.1)',
+                fontFamily: 'Space',
+                padding: '8px 16px 8px 16px',
               }}
               className="btn-sm text-gray-200  hover:bg-gray-800 mb-2 rounded"
             >
@@ -34,7 +34,7 @@ function Focus() {
 
             <h1
               className="text-3xl font-bold mb-3 text-start"
-              style={{ color: "#333333" }}
+              style={{ color: '#333333' }}
             >
               ¿Qué nos diferencia?
             </h1>
@@ -58,12 +58,14 @@ function Focus() {
                 </ul>
               </div> */}
             </section>
-            <button
-              type="button"
-              className=" flex items-center bg-[#1BBC82] rounded-full py-2 px-5 text-white"
-            >
-              Descubrir ahora
-            </button>
+            <a href="https://blog.realtechdigital.xyz/">
+              <button
+                type="button"
+                className=" flex items-center bg-[#1BBC82] rounded-full py-2 px-5 text-white"
+              >
+                Descubrir ahora
+              </button>
+            </a>
           </div>
         </div>
       </div>
