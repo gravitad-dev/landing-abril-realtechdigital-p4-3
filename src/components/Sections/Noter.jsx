@@ -1,4 +1,4 @@
-import texts from "../../sections.json";
+import texts from '../../sections.json';
 
 function Noter() {
   return (
@@ -9,7 +9,7 @@ function Noter() {
             <div className="md:ml-10 mt-10 w-7xl">
               <img
                 className="md:max-w-none mx-auto mr-20 rounded-2xl"
-                src={texts["section-five"].picture}
+                src={texts['section-five'].picture}
                 width={600}
                 height="300"
                 alt="iPad"
@@ -21,22 +21,22 @@ function Noter() {
           <div className="text-start">
             <div
               style={{
-                width: "fit-content",
-                color: "#6953D3",
-                backgroundColor: "rgba(105, 83, 211, 0.1)",
-                fontFamily: "Space",
-                padding: "8px 16px 8px 16px",
+                width: 'fit-content',
+                color: '#6953D3',
+                backgroundColor: 'rgba(105, 83, 211, 0.1)',
+                fontFamily: 'Space',
+                padding: '8px 16px 8px 16px',
               }}
               className="btn-sm text-gray-200  hover:bg-gray-800 mb-2 rounded"
             >
-              <h3 className="text-start">{texts["section-five"].subtitle}</h3>
+              <h3 className="text-start">{texts['section-five'].subtitle}</h3>
             </div>
 
             <h1
               className="text-3xl font-bold mb-3 text-start"
-              style={{ color: "#333333" }}
+              style={{ color: '#333333' }}
             >
-              {texts["section-five"].title}
+              {texts['section-five'].title}
             </h1>
             {/* <p className="pt-6 text-[#444444]" style={{ opacity: "60%" }}>
               {texts["section-five"].body}
@@ -48,7 +48,7 @@ function Noter() {
               <div className="flex flex-between gap-4">
                 <div
                   className="border rounded-full flex items-center justify-center w-10 h-10 p-2"
-                  style={{ backgroundColor: "rgba(105, 83, 211, 0.1)" }}
+                  style={{ backgroundColor: 'rgba(105, 83, 211, 0.1)' }}
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -67,14 +67,14 @@ function Noter() {
                   </svg>
                 </div>
                 <h2 className="font-bold">
-                  {texts["section-five"].infoButton1}
+                  {texts['section-five'].infoButton1}
                 </h2>
               </div>
               {/* item 2 */}
               <div className="flex flex-between gap-4">
                 <div
                   className="border rounded-full flex items-center justify-center w-10 h-10 p-2"
-                  style={{ backgroundColor: "rgba(105, 83, 211, 0.1)" }}
+                  style={{ backgroundColor: 'rgba(105, 83, 211, 0.1)' }}
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -93,14 +93,14 @@ function Noter() {
                   </svg>
                 </div>
                 <h2 className="font-bold">
-                  {texts["section-five"].infoButton2}
+                  {texts['section-five'].infoButton2}
                 </h2>
               </div>
               {/* item 3 */}
               <div className="flex flex-between gap-4">
                 <div
                   className="border rounded-full flex items-center justify-center w-10 h-10 p-2"
-                  style={{ backgroundColor: "rgba(105, 83, 211, 0.1)" }}
+                  style={{ backgroundColor: 'rgba(105, 83, 211, 0.1)' }}
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -119,14 +119,14 @@ function Noter() {
                   </svg>
                 </div>
                 <h2 className="font-bold">
-                  {texts["section-five"].infoButton3}
+                  {texts['section-five'].infoButton3}
                 </h2>
               </div>
               {/* item 4 */}
               <div className="flex flex-between gap-4">
                 <div
                   className="border rounded-full flex items-center justify-center w-10 h-10 p-2"
-                  style={{ backgroundColor: "rgba(105, 83, 211, 0.1)" }}
+                  style={{ backgroundColor: 'rgba(105, 83, 211, 0.1)' }}
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -144,17 +144,19 @@ function Noter() {
                   </svg>
                 </div>
                 <h2 className="font-bold">
-                  {texts["section-five"].infoButton4}
+                  {texts['section-five'].infoButton4}
                 </h2>
               </div>
             </section>
-            <button
-              type="button"
-              className=" flex items-center bg-[#6953D3] rounded-full py-2 px-5 text-white"
-            >
-              {/* <FaPlayCircle size={30} color="#0a9f00" /> */}
-              {texts["section-five"].button}
-            </button>
+            <a href="https://blog.realtechdigital.xyz/">
+              <button
+                type="button"
+                className=" flex items-center bg-[#6953D3] rounded-full py-2 px-5 text-white"
+              >
+                {/* <FaPlayCircle size={30} color="#0a9f00" /> */}
+                {texts['section-five'].button}
+              </button>
+            </a>
           </div>
         </div>
       </div>

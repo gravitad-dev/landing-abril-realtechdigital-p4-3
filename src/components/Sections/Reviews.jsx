@@ -1,4 +1,4 @@
-import texts from "../../sections.json";
+import texts from '../../sections.json';
 
 function Reviews() {
   return (
@@ -9,12 +9,12 @@ function Reviews() {
           <div className="flex lg:justify-start justify-center">
             <span
               style={{
-                width: "fit-content",
-                color: "#6953D3",
-                fontFamily: "Space",
-                marginBottom: "24px",
-                backgroundColor: "rgba(105, 83, 211, 0.1)",
-                padding: "8px 16px 8px 16px",
+                width: 'fit-content',
+                color: '#6953D3',
+                fontFamily: 'Space',
+                marginBottom: '24px',
+                backgroundColor: 'rgba(105, 83, 211, 0.1)',
+                padding: '8px 16px 8px 16px',
               }}
               className="btn-sm text-gray-200 font-semibold  hover:bg-gray-800 rounded"
             >
@@ -27,7 +27,7 @@ function Reviews() {
               className="text-5xl md:text-4.5xl font-semibold leading-tighter tracking-tighter mb-4 expressa"
               data-aos="zoom-y-out"
             >
-              ¿Quiénes han confiado en nosotros?{" "}
+              ¿Quiénes han confiado en nosotros?{' '}
             </h1>
             <div className="max-w-3xl mx-auto">
               <p
@@ -103,11 +103,16 @@ function Reviews() {
                 <div className="flex justify-start gap-12">
                   <a
                     className="flex gap-2 items-center  text-white bg-[#6953D3] rounded-full px-6 py-4 hover:bg-gray-800 w-full sm:w-auto sm:ml-0"
-                    href="#0"
+                    href="https://blog.realtechdigital.xyz/contacto/"
+                    target="_blank"
                   >
                     Contáctanos
                   </a>
-                  <a className="flex items-center" href="/#">
+                  <a
+                    className="flex items-center"
+                    href="https://blog.realtechdigital.xyz/"
+                    target="_blank"
+                  >
                     <div className="border rounded-full flex items-center justify-center w-14 h-14 mr-3">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -125,10 +130,9 @@ function Reviews() {
                         />
                       </svg>
                     </div>
-                    <div>
-                      <h2>Ver</h2>
-                      <h2>Promoción</h2>
-                    </div>
+                    <a href="https://blog.realtechdigital.xyz/" target="_blank">
+                      <h2>Explorar</h2>
+                    </a>
                   </a>
                 </div>
               </div>

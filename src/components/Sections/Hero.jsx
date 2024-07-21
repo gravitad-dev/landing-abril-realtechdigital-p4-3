@@ -9,16 +9,16 @@ function Hero() {
           <div className="flex lg:justify-start justify-center">
             <span
               style={{
-                width: "fit-content",
-                color: "#1BBC82",
-                fontFamily: "Space",
-                marginBottom: "24px",
-                backgroundColor: "rgba(105, 83, 211, 0.1)",
-                padding: "8px 16px 8px 16px",
+                width: 'fit-content',
+                color: '#1BBC82',
+                fontFamily: 'Space',
+                marginBottom: '24px',
+                backgroundColor: 'rgba(105, 83, 211, 0.1)',
+                padding: '8px 16px 8px 16px',
               }}
               className="btn-sm text-gray-200 font-semibold  hover:bg-gray-800 rounded"
             >
-              {texts["section-two"].bread}
+              {texts['section-two'].bread}
             </span>
           </div>
           {/* Section header */}
@@ -27,7 +27,7 @@ function Hero() {
               className="text-5xl md:text-4.5xl font-semibold leading-tighter tracking-tighter mb-4 expressa"
               data-aos="zoom-y-out"
             >
-              {texts["section-two"].title}{" "}
+              {texts['section-two'].title}{' '}
             </h1>
             <div className="max-w-3xl mx-auto">
               <p
@@ -35,7 +35,7 @@ function Hero() {
                 data-aos="zoom-y-out"
                 data-aos-delay="150"
               >
-                {texts["section-two"].description}
+                {texts['section-two'].description}
               </p>
               <div
                 className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-start"
@@ -45,7 +45,9 @@ function Hero() {
                 <div className="flex justify-start gap-12">
                   <a
                     className="flex gap-2 items-center  text-white bg-[#1BBC82] rounded-full p-4 hover:bg-gray-800 w-full sm:w-auto sm:ml-0"
-                    href="mailto:realtechdigital2024@gmail.com" target="_blank" rel="noreferrer"
+                    href="https://blog.realtechdigital.xyz/contacto/"
+                    target="_blank"
+                    rel="noreferrer"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -63,7 +65,7 @@ function Hero() {
                       />
                     </svg>
 
-                    {texts["section-two"].button1}
+                    {texts['section-two'].button1}
                   </a>
                   {/* <a className="flex items-center" href="/#">
                     <div className="border rounded-full flex items-center justify-center w-14 h-14 mr-3">
@@ -147,7 +149,7 @@ function Hero() {
         <div className=" mb-20">
           <img
             className="md:max-w-none mx-auto rounded"
-            src={texts["section-two"].image}
+            src={texts['section-two'].image}
             width={600}
             height="150"
             alt="Business man"
