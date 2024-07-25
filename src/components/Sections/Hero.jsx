@@ -7,6 +7,7 @@ function Hero() {
         {/* Hero content */}
         <div className="pt-10 pb-12 md:pt-10 lg:pb-20">
           <div className="flex lg:justify-start justify-center">
+            {/*
             <span
               style={{
                 width: 'fit-content',
@@ -20,6 +21,7 @@ function Hero() {
             >
               {texts['section-two'].bread}
             </span>
+           */}
           </div>
           {/* Section header */}
           <div className="text-left pb-12 md:pb-16">
@@ -27,7 +29,7 @@ function Hero() {
               className="text-5xl md:text-4.5xl font-semibold leading-tighter tracking-tighter mb-4 expressa"
               data-aos="zoom-y-out"
             >
-              {texts['section-two'].title}{' '}
+              {texts["section-two"].title}{" "}
             </h1>
             <div className="max-w-3xl mx-auto">
               <p
@@ -35,7 +37,7 @@ function Hero() {
                 data-aos="zoom-y-out"
                 data-aos-delay="150"
               >
-                {texts['section-two'].description}
+                {texts["section-two"].description}
               </p>
               <div
                 className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-start"
@@ -65,7 +67,7 @@ function Hero() {
                       />
                     </svg>
 
-                    {texts['section-two'].button1}
+                    {texts["section-two"].button1}
                   </a>
                   {/* <a className="flex items-center" href="/#">
                     <div className="border rounded-full flex items-center justify-center w-14 h-14 mr-3">
@@ -149,7 +151,7 @@ function Hero() {
         <div className=" mb-20">
           <img
             className="md:max-w-none mx-auto rounded"
-            src={texts['section-two'].image}
+            src={texts["section-two"].image}
             width={600}
             height="150"
             alt="Business man"
