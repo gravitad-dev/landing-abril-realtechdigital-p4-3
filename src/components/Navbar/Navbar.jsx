@@ -1,6 +1,6 @@
-import useNav from '../../hooks/useNav';
-import MenuMobile from './MenuMobile';
-import texts from '../../sections.json';
+import useNav from "../../hooks/useNav";
+import MenuMobile from "./MenuMobile";
+import texts from "../../sections.json";
 
 const Navbar = () => {
   const { isOpen, handleIsOpen } = useNav();
@@ -8,35 +8,30 @@ const Navbar = () => {
   return (
     <div
       className=" flex justify-between px-5 lg:px-10 py-10"
-      style={{ backgroundColor: 'white' }}
+      style={{ backgroundColor: "white" }}
     >
       <div className="">
         <a
           className=" text-2xl font-semibold flex items-center gap-5"
           href="/#"
         >
-          <img src={texts['section-one'].logo} alt="logo" width={70} />
-          <h1>{texts['section-one'].logoName}</h1>
+          <img src={texts["section-one"].logo} alt="logo" width={70} />
+          <h1>{texts["section-one"].logoName}</h1>
         </a>
       </div>
       <div className="justify-between hidden lg:flex items-center">
         <ul className="menu menu-horizontal  font-semibold  gap-16">
           <li className="hover:text-[#1BBC82]">
-            <a href="/#">{texts['section-one'].item1}</a>
+            <a href="/#">{texts["section-one"].item1}</a>
           </li>
-          <li className="hover:text-[#1BBC82]">
-            <a href="/#">{texts['section-one'].item2}</a>
-          </li>
-          <li className="hover:text-[#1BBC82]">
-            <a href="/#">{texts['section-one'].item3}</a>
-          </li>
+
           <li className="hover:text-[#1BBC82]">
             <a
               href="http://blog.realtechdigital.xyz/"
               target="_blank"
               rel="noreferrer"
             >
-              {texts['section-one'].item4}
+              {texts["section-one"].item4}
             </a>
           </li>
         </ul>
@@ -47,7 +42,7 @@ const Navbar = () => {
           href="https://blog.realtechdigital.xyz/contacto/"
           target="_blank"
           rel="noreferrer"
-          style={{ backgroundColor: 'white' }}
+          style={{ backgroundColor: "white" }}
         >
           Contactar
           <svg
